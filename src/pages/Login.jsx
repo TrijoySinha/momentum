@@ -1,5 +1,5 @@
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { auth } from "../firebase/firebase";
+import { auth } from "../firebase/firebase";  
 
 export default function Login() {
   const handleGoogleLogin = async () => {
